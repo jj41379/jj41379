@@ -7,9 +7,9 @@ public class Zadanie2 {
     public static void main(String[] args) {
         Map<String, Teacher> nauczyciele = new HashMap<>();
         nauczyciele.put("programowanie", new Teacher("Andrzej", "Nowak", "anrzej@nowak.pl", "programowanie"));
-        nauczyciele.put("wychowanie fizyczne", new Teacher("Stefan", "Jeżyk", "stefan@nauczyciel.pl", "wychowanie fizyczne"));
-        nauczyciele.put("programowanie obiektowe", new Teacher("Wiesław", "Kot", "wieslaw@kot.pl", "programowanie obiektowe"));
-        nauczyciele.put("wstęp do programowania", new Teacher("Gabriel", "Orzech", "gabriel@gabriel.pl", "wstęp do programowania"));
+        nauczyciele.put("wychowanie fizyczne", new Teacher("Stefan", "Ryba", "stefan@nauczyciel.pl", "wychowanie fizyczne"));
+        nauczyciele.put("programowanie obiektowe", new Teacher("Wieslaw", "Kot", "wieslaw@kot.pl", "programowanie obiektowe"));
+        nauczyciele.put("wstep do programowania", new Teacher("Gabriel", "Orzech", "gabriel@gabriel.pl", "wstęp do programowania"));
 
         System.out.println(nauczyciele.get("programowanie obiektowe"));
 
@@ -22,7 +22,7 @@ public class Zadanie2 {
         grupa30.add(new Student("Mateusz", "Orzech", "mateusz@orzech.pl", "30"));
 
         grupa31.add(new Student("Hubert", "Grabowski", "hubert@grabowski.pl", "31"));
-        grupa31.add(new Student("Jędrzej", "Ziemniak", "jedrzej@ziemniak.pl", "31"));
+        grupa31.add(new Student("Jedrzej", "Ziemniak", "jedrzej@ziemniak.pl", "31"));
         grupa31.add(new Student("Jakub", "Rudzik", "jakub@rudzik.pl", "31"));
 
         grupa32.add(new Student("Ireneusz", "Kot", "ireneusz@kot.pl", "32"));
